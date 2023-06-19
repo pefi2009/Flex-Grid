@@ -1,0 +1,45 @@
+body {
+  margin: auto 0;
+}
+.Nav {
+  display: flex;
+  background-color: goldenrod;
+  list-style: none;
+  margin: 0;
+}
+.sam {
+  background-color: aqua;
+  margin-left: auto;
+}
+li {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.Cover {
+  height: 150px;
+
+  background-color: crimson;
+
+  color: aqua;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  background-color: darkorchid;
+}
+.grid-item {
+  border: solid 1px red;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: cyan;
+  margin: 10px;
+}
